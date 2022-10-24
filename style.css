@@ -147,8 +147,19 @@ h2 span {
 
 .container-galery {
     margin: 50px;
+    background-image: url(./img/Fondo-3.jpg);
+    background-size: cover;
 }
 
 .foto {
-    width: 380px;
+    width: 400px;
+    margin: 35px;
+    transform: rotate(2deg);
+    filter: blur(2px);
+}
+
+.foto:hover {
+    border: 8px solid #FFF;
+    transition: .7s;
+    filter: blur(0px);
 }
