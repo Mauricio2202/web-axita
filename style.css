@@ -15,6 +15,16 @@ body {
     height: 840px;
 }
 
+.fondo-1-1 {
+    width: 1000px;
+    height: 200px;
+    background-image: url(./img/Fondo-1-1.jpg);
+    position: absolute;
+    left: 470px;
+    top: 300px;
+    z-index: -3;
+}
+
 .photo_uno {
     border-radius: 50%;
     width: 240px;
@@ -162,4 +172,114 @@ h2 span {
     border: 8px solid #FFF;
     transition: .7s;
     filter: blur(0px);
+}
+
+.socialNetworks {
+    background-color: #000000;
+    padding: -30px;
+    box-shadow: 0 0 5px #000011;
+    height: 130px;
+}
+
+.social {
+    width: 50px;
+    margin: 40px;
+}
+
+.social:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.mySocialNetworks {
+    color: #FFF;
+    font-family: 'Special Elite', cursive;
+    margin-left: 700px;
+    margin-top: -90px;
+    font-size: 50px;
+}
+
+/*Responsive design*/
+
+@media (max-width: 340px) {
+    h1 {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+        padding: 20px;
+        max-width: 100%;
+        color: #000;
+    }
+
+    .line {
+        border-bottom: none;
+    }
+
+    .photo_uno {
+        width: 160px;
+        height: 160px;
+        margin-top: 80px;
+        margin-left: 90px;
+    }
+
+    .container-presentation {
+        max-width: 270px;
+        max-height: 230px;
+        font-size: 17px;
+        margin-left: 30px;
+        margin-top: 50px;
+        border-radius: 0px;
+    }
+
+    .fondo-1-1 {
+        background-image: none;
+    }
+
+    .photo_2 {
+        margin-left: -570px;
+        margin-top: 290px;
+    }
+
+    .container-sections {
+        margin-top: 100px;
+    }
+
+    .photo-3 {
+        width: 240px;
+    }
+
+    .wallpaper_2 {
+        background-image: none;
+    }
+
+    h2 {
+        margin-top: 330px;
+        margin-left: -630px;
+        font-size: 17px;
+    }
+
+    .container-galery {
+        background-image: none;
+    }
+
+    .foto {
+        filter: blur(0px);
+        margin-left: -34px;
+        width: 300px;
+        transform: rotate(0deg);
+    }
+
+    .socialNetworks {
+        max-width: 100%;
+        height: 110px;
+        display: inline-flex;
+    }
+
+    .social {
+        width: 30px;
+    }
+
+    .mySocialNetworks {
+        font-size: none;
+    }
 }
